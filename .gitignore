@@ -1,0 +1,25 @@
+# Arduino build output
+build/
+*.hex
+*.elf
+*.bin
+*.map
+*.eep
+*.lst
+*.o
+*.d
+*.a
+
+# Arduino IDE local files
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# VS Code / PlatformIO optional local files
+.vscode/
+.pio/
+
+# Large raw videos can be added with Git LFS instead
+# videos/*.mp4
+# videos/*.mov
