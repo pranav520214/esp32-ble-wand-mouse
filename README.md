@@ -46,7 +46,7 @@ Install these before uploading:
 
 ## Uploading
 
-1. Open `WandMouse_Stable/WandMouse_Stable.ino` in Arduino IDE.
+1. Open `WandMouse_Stable.ino` in Arduino IDE.
 2. Select your ESP32 board.
 3. Select the correct USB port.
 4. Install the missing libraries if Arduino reports them.
@@ -76,34 +76,17 @@ Useful Serial Monitor commands:
 
 ## Videos and demos
 
-Put small demo videos in the `videos/` folder, or host larger videos externally and link them from this README.
-
-Recommended README format:
-
-```markdown
-## Demo
-
-[Watch the demo video](videos/demo.mp4)
-```
-
-For large videos, use Git LFS or upload the video to a video platform and link it here.
+- [Watch the project demo](VID_20260523_155334.mp4)
+- [View the hardware photo](1779532617181.jpg)
 
 ## Project structure
 
 ```text
 esp32-ble-wand-mouse/
-├── WandMouse_Stable/
-│   └── WandMouse_Stable.ino
-├── docs/
-│   ├── setup.md
-│   ├── commands.md
-│   └── publishing-to-github.md
-├── videos/
-│   └── README.md
-├── images/
-│   └── .gitkeep
-├── .gitignore
-├── .gitattributes
+├── WandMouse_Stable.ino
+├── VID_20260523_155334.mp4
+├── 1779532617181.jpg
+├── CHANGELOG.md
 ├── LICENSE
 └── README.md
 ```
